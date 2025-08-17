@@ -17,4 +17,11 @@ class ProductProperties {
     toString() {
         return `Product: ${this.name}, Price: ${this.price}, Quantity: ${this.quantity}`;
     }
+
+    // Define a static method to apply discount to an array of ProductProperties or PerishableProductProperties objects
+    static applyDiscount(products, discount) {
+        products.forEach(product => {
+            product.price = product.price * (1 - discount);
+        });
+    }
 }
