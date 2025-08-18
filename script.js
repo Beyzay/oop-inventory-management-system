@@ -95,3 +95,6 @@ let cereals = new ProductProperties("Cereals", 2.00, 15);
 
 let egg = new PerishableProductProperties("Egg", 3.50, 8, "2025-09-09");
 let milk = new PerishableProductProperties("Milk", 5.00, 10, "2025-10-10");
+
+// Create an object of the Store class
+let testStore = new Store();
