@@ -105,3 +105,6 @@ testStore.addProduct(salt);
 testStore.addProduct(cereals);
 testStore.addProduct(egg);
 testStore.addProduct(milk);
+
+// Print the total inventory value before applying 15% discount
+console.log(`Total Inventory Value Before Discount: $${testStore.getInventoryValue()}`);
