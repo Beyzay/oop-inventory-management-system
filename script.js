@@ -75,4 +75,11 @@ class Store {
 
     return totalValue;
    }
+
+   // Define a method to find a product by its name and return it, return null if not found
+   findProductByName(name) {
+    let foundProductByName = this.inventory.find(product => product.name.toLowerCase() === name.toLowerCase());
+    
+    return foundProductByName ? foundProductByName : null;
+   }
 }
