@@ -108,3 +108,6 @@ testStore.addProduct(milk);
 
 // Print the total inventory value before applying 15% discount
 console.log(`Total Inventory Value Before Discount: $${testStore.getInventoryValue()}`);
+
+// Apply 15% discount to the total inventory value
+ProductProperties.applyDiscount(testStore.inventory, 0.15);
