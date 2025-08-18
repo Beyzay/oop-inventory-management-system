@@ -25,3 +25,8 @@ class ProductProperties {
         });
     }
 }
+
+// ------------------------------------------------------------------------------------------------------ //
+
+// Create a subclass
+class PerishableProductProperties extends ProductProperties {}
