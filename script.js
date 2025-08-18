@@ -51,3 +51,8 @@ let cream = new PerishableProductProperties("Cream", 3.75, 30, "2025-12-12");
 
 console.log(`Yoghurt: ${yoghurt.toString()}`);
 console.log(`Cream: ${cream.toString()}`);
+
+// ------------------------------------------------------------------------------------------------------ //
+
+// Create Store class to store ProductProperties or PerishableProductProperties objects
+class Store {}
