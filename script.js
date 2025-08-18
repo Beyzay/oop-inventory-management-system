@@ -83,3 +83,15 @@ class Store {
     return foundProductByName ? foundProductByName : null;
    }
 }
+
+// ------------------------------------------------------------------------------------------------------ //
+
+// Test the system
+
+// Create 5 ProductProperties objects that includes 2 PerishableProductProperties objects
+let rice = new ProductProperties("Rice", 1.50, 50);
+let salt = new ProductProperties("Salt", 1.00, 25);
+let cereals = new ProductProperties("Cereals", 2.00, 15);
+
+let egg = new PerishableProductProperties("Egg", 3.50, 8, "2025-09-09");
+let milk = new PerishableProductProperties("Milk", 5.00, 10, "2025-10-10");
