@@ -42,3 +42,12 @@ class PerishableProductProperties extends ProductProperties {
         return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
     }
 }
+
+// ------------------------------------------------------------------------------------------------------ //
+
+// Create and log 2 instances (perishable products) of the subclass PerishableProductProperties
+let yoghurt = new PerishableProductProperties("Yoghurt", 3.00, 20, "2025-11-11" );
+let cream = new PerishableProductProperties("Cream", 3.75, 30, "2025-12-12");
+
+console.log(`Yoghurt: ${yoghurt.toString()}`);
+console.log(`Cream: ${cream.toString()}`);
