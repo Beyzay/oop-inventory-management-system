@@ -29,4 +29,11 @@ class ProductProperties {
 // ------------------------------------------------------------------------------------------------------ //
 
 // Create a subclass
-class PerishableProductProperties extends ProductProperties {}
+class PerishableProductProperties extends ProductProperties {
+    constructor(name, price, quantity, expirationDate) {
+        // Call the parent class constructor
+        super(name, price, quantity);
+
+        this.expirationDate = expirationDate;
+    }
+}
