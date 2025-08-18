@@ -98,3 +98,10 @@ let milk = new PerishableProductProperties("Milk", 5.00, 10, "2025-10-10");
 
 // Create an object of the Store class
 let testStore = new Store();
+
+// Add these 5 products to a Store object
+testStore.addProduct(rice);
+testStore.addProduct(salt);
+testStore.addProduct(cereals);
+testStore.addProduct(egg);
+testStore.addProduct(milk);
