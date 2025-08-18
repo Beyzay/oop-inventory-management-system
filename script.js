@@ -55,4 +55,8 @@ console.log(`Cream: ${cream.toString()}`);
 // ------------------------------------------------------------------------------------------------------ //
 
 // Create Store class to store ProductProperties or PerishableProductProperties objects
-class Store {}
+class Store {
+   constructor() {
+    this.inventory = [];
+   }
+}
